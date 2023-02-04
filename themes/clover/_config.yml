@@ -1,27 +1,24 @@
 # Custom nav
 nav:
-  title: "Evan's Blog"
+  title: "Die antwort"
 
 favicon: "/source/images/favicon.ico"
 
 # Custom background
 background:
   color: "#eff0f6"
-  # image: "https://cdn-images.reidosann.top/f63f15f66ec3903621bf6ed7bd4be21c.jpeg"
+  image: ""
 
 # Social media
 social:
-  # Dribbble: https://dribbble.com/clovertuan
-  # Behance: https://www.behance.net/clovertuan
-  # Lofter: http://clovertuan.lofter.com/
-  # Instagram: https://www.instagram.com/clovertuan/
-  GitHub: https://github.com/evansuner
-  # Netease: https://music.163.com/#/user?id=113874197
-  # Gitee: https://gitee.com/evansuner
+  GitHub: https://github.com/zhijielee
+  Twitter: https://twitter.com/zhijie1998
+  Instagram: https://www.instagram.com/zhijie_li1998
+  Zhihu: https://www.zhihu.com/people/die-antwort
 
 # Custom footer
-mail: reidosann@163.com
-copyright: Powered by Hexo © Evan
+mail: i@zhijie.li
+copyright: All rights reserved @Die antwort
 
 # Custom menu. You can specific the path or the card style (only useful for category page).
 # Two kinds of card style: 'project-card', 'article-card',
@@ -35,6 +32,8 @@ menu:
   #   card: article-card
   Home: /
   Archive: archives
+  Tag: tags
+  Categories: categories
   About: about
   Search: search
 
@@ -66,9 +65,9 @@ node_sass:
   sourceComments: false
 
 # Beian ICP and gongan information for Chinese users.
-beian:
-  enable: true
-  icp: 皖ICP备2021006467号-2
+# beian:
+#   enable: true
+#   icp: 皖ICP备2021006467号-2
 
 # Search
 # search:
