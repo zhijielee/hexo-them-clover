@@ -35,7 +35,7 @@ menu:
   Tag: tags
   Categories: categories
   About: about
-  Search: search
+  # Search: search
 
 # Specific default categories or tags of home page.
 # Post which belongs to `category` or `tag` and don't belongs to `except_category` or `except_tag` will be filtered.

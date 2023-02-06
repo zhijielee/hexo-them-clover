@@ -27,7 +27,7 @@ tag_dir: tags
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
-search_dir: search
+# search_dir: search
 i18n_dir: :lang
 # 跳过渲染
 skip_render: donate-page/*
