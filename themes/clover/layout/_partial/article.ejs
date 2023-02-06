@@ -5,11 +5,13 @@
   <footer class="f-cf">
     <% if (post.prev) { %>
     <a href="<%- url_for(post.prev.path) %>" class="link f-fl">
-      <%= post.prev.title %></a
-    >
+      <i class="iconfont icon-arrow-left"></i>
+      <%= post.prev.title %>
+    </a>
     <% } %> <% if (post.next) { %>
-    <a href="<%- url_for(post.next.path) %>" class="link f-fr"
-      ><%= post.next.title %>
+    <a href="<%- url_for(post.next.path) %>" class="link f-fr">
+      <%= post.next.title %>
+      <i class="iconfont icon-arrow-right"></i>
     </a>
     <% } %>
   </footer>
